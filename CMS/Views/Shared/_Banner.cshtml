@@ -1,0 +1,14 @@
+﻿<div class="Banner col-md-12" ng-controller="bannerController" style="margin-bottom: 20px; margin-top: -5px;">
+    <div id="carousel-example-generic" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="{{index}}" ng-class="{'active':index==0}" ng-repeat="(index, value) in banners"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item" ng-class="{'active':index==0}" ng-repeat="(index, value) in banners">
+                <img src="{{value.image}}" alt="..." class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+

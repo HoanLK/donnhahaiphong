@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Danh sách Bài viết";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="col-md-3 hidden-sm hidden-xs">
+        <div class="col-md-12 column margintop20 Menu-Trai">
+            @Html.Partial("_MenuCategoryPost")
+        </div>
+    </div>
+    <div class="col-md-9 right panel panel-info" style="background-color:#ffffff ;margin-top: 20px;">
+        <div class="panel" style="text-align:center; border-bottom-color:#0A921A">
+            <h3 style="color:#137CFE; font-size:40px;">Bài viết</h3>
+        </div>
+        <div class="panel-body">
+            <div ng-controller="childCategoryPostController">
+                @*<input type="hidden" value="@Model.idCategory" id="idCategory" />*@
+                <div class="container-fluid">
+                    @*<div class="col-md-6" ng-repeat="(index, value) in categories">*@
+                    <div class="col-md-6" dir-paginate="(index, value) in posts | itemsPerPage:12" style="margin-bottom: 20px;">
+                        <div class="child-post">
+                            <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="title-child-post"><img src="{{value.image}}" class="img-responsive" /></a>
+                            <div class="text">
+                                <a href="/bai-viet/{{value.alias}}-{{value.idPost}}">{{value.title}}</a> <br />
+                                <div class="description">{{value.description | limitTo: 100}}{{value.description.length > 100 ? '&hellip;' : ''}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container"><dir-pagination-controls></dir-pagination-controls></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

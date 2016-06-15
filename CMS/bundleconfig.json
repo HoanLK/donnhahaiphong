@@ -1,0 +1,212 @@
+[
+  {
+    "outputFileName": "Content/admin/Login.css",
+    "inputFiles": [
+      "Content/admin/Login.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/bootstrap.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/materialadmin.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/materialadmin.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/toastr/toastr.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/toastr/toastr.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/jquery.dataTables.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/jquery.dataTables.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/TableTools.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/TableTools.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/js/libs/toastr/toastr.js",
+    "inputFiles": [
+      "Content/admin/js/libs/toastr/toastr.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/js/core/demo/DemoTableDynamic.js",
+    "inputFiles": [
+      "Content/admin/js/core/demo/DemoTableDynamic.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/pagination/dirPagination.js",
+    "inputFiles": [
+      "Scripts/front/pagination/dirPagination.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/admin/myApp.js",
+    "inputFiles": [
+      "Scripts/admin/myApp.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/admin/categoryProductFactory.js",
+    "inputFiles": [
+      "Scripts/admin/categoryProductFactory.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/frontApp.js",
+    "inputFiles": [
+      "Scripts/front/frontApp.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/categoryProductFactory.js",
+    "inputFiles": [
+      "Scripts/front/categoryProductFactory.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/categoryPostFactory.js",
+    "inputFiles": [
+      "Scripts/front/categoryPostFactory.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/bannerController.js",
+    "inputFiles": [
+      "Scripts/front/bannerController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/tabController.js",
+    "inputFiles": [
+      "Scripts/front/tabController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/videoController.js",
+    "inputFiles": [
+      "Scripts/front/videoController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/allCategoryProductController.js",
+    "inputFiles": [
+      "Scripts/front/allCategoryProductController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/childCategoryProductController.js",
+    "inputFiles": [
+      "Scripts/front/childCategoryProductController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/menuCategoryPostController.js",
+    "inputFiles": [
+      "Scripts/front/menuCategoryPostController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/allCategoryPostController.js",
+    "inputFiles": [
+      "Scripts/front/allCategoryPostController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/childCategoryPostController.js",
+    "inputFiles": [
+      "Scripts/front/childCategoryPostController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/showProductController.js",
+    "inputFiles": [
+      "Scripts/front/showProductController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/showPostController.js",
+    "inputFiles": [
+      "Scripts/front/showPostController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/menuMainController.js",
+    "inputFiles": [
+      "Scripts/front/menuMainController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/searchController.js",
+    "inputFiles": [
+      "Scripts/front/searchController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/showSearchController.js",
+    "inputFiles": [
+      "Scripts/front/showSearchController.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/cusRegisterController.js",
+    "inputFiles": [
+      "Scripts/front/cusRegisterController.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/front/css/yamm.css",
+    "inputFiles": [
+      "Content/front/css/yamm.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/front/css/bootstrap.min.css",
+    "inputFiles": [
+      "Content/front/css/bootstrap.min.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/front/css/site.css",
+    "inputFiles": [
+      "Content/front/css/site.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/front/css/bootstrap.css",
+    "inputFiles": [
+      "Content/front/css/bootstrap.css"
+    ]
+  }
+]

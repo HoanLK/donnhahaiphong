@@ -1,0 +1,72 @@
+﻿@model CMS.Models.Post
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container" ng-controller="showPostController">
+    <input type="hidden" value="@Model.idPost" id="idPost" />
+    <div class="col-md-3 hidden-sm hidden-xs">
+        <div class="col-md-12 column margintop20 Menu-Trai">
+            @Html.Partial("_MenuCategoryPost")
+        </div>
+    </div>
+
+    <div class="col-md-9 right panel panel-info" style="background-color:#ffffff; margin-top: 20px;">
+        <div class="panel" style="text-align:center; border-bottom-color:#0A921A">
+            <h3 style="color:#137CFE; font-size:40px;">{{post.title}}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="content-post" ng-bind-html="post.content"></div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-xs-12 hidden-md visible-sm visible-xs">
+        <div class="col-md-12 column margintop20 Menu-Trai">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active" style="text-align:center">
+                    <a><strong>Dich vụ</strong></a>
+                </li>
+                <li>
+                    <a href="@Url.Action("DonNhaTheoTieng","Home")" class="active2" style="color:#000000">
+                        <span class="glyphicon glyphicon-chevron-right"></span> Dọn nhà theo tiếng
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("VSVP","Home")" style="color:#000000">
+                        <span class="glyphicon glyphicon-chevron-right"></span> Vệ sinh văn phòng
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("VSCN","Home")" style="color:#000000">
+                        <span class="glyphicon glyphicon-chevron-right"></span> Vệ sinh công nghiệp
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-12 column margintop20 Menu-Trai">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active" style="text-align:center">
+                    <a><strong>Dich vụ</strong></a>
+                </li>
+                <li>
+                    <a href="#" style="color:#000000">
+                        <span class="glyphicon glyphicon-chevron-right"></span> Thời gian thực hiện?
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="color:#000000">
+                        <span class="glyphicon glyphicon-chevron-right"></span> Quy trình thực hiện?
+                    </a>
+                </li>
+                <li>
+                    <a href="#" style="color:#000000">
+                        <span class="glyphicon glyphicon-chevron-right"></span> Thời gian thực hiện?
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

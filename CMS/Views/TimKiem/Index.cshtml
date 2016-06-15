@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Kết quả tìm kiếm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div ng-controller="showSearchController">
+    <div class="container-fluid">
+        <div class="list-category-post">
+            <h1 class="title" ng-show="searchText.length > 0">Kết quả tìm kiếm cho <span style="font-weight: bold; font-style: italic;">"{{searchText}}"</span></h1>
+            <h1 class="title" ng-show="!(searchText.length > 0)"><i>Xin lỗi! Kết quả tìm kiếm không tồn tại</i></h1>
+            <div class="container-fluid">
+                <h2 ng-show="products.length > 0">Sản phẩm ({{products.length}})</h2>
+                <div class="col-md-6" ng-repeat="(index, value) in products">
+                    <div class="child-post">
+                        <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="title-child-post"><img src="{{value.image}}" class="img-responsive" /></a>
+                        <div class="text">
+                            <a href="/san-pham/{{value.alias}}-{{value.idProduct}}">{{value.title}}</a> <br />
+                            <div class="description">{{value.note | limitTo: 100}}{{value.note.length > 100 ? '&hellip;' : ''}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-category-post">
+            
+            <div class="container-fluid">
+                <h2 ng-show="posts.length > 0">Bài viết ({{posts.length}})</h2>
+                <div class="col-md-6" ng-repeat="(index, value) in posts">
+                    <div class="child-post">
+                        <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="title-child-post"><img src="{{value.image}}" class="img-responsive" /></a>
+                        <div class="text">
+                            <a href="/bai-viet/{{value.alias}}-{{value.idPost}}">{{value.title}}</a> <br />
+                            <div class="description">{{value.description | limitTo: 100}}{{value.description.length > 100 ? '&hellip;' : ''}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

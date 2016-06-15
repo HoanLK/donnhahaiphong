@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+
+    <!--SEO-->
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="@((ViewBag.Description!=null)?ViewBag.Description:"")" />
+    <meta name="keywords" content='@((ViewBag.Keywords!=null)?ViewBag.Keywords:"")' />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="robots" content='@((ViewBag.Robots!=null)?ViewBag.Robots:"index, noop, follow")' />
+    <meta http-equiv="content-language" content="vi" />
+    <link href="/Content/Images/images/CTA-KhongXoa/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link rel="alternate" href="http://www.daunhotmobilchinhhang.com/" hreflang="vn-vi" />
+
+    <meta itemprop="name" content='@((ViewBag.Title!=null)?ViewBag.Title : "")'>
+    <meta itemprop="description" content='@((ViewBag.Description!=null)?ViewBag.Description:"")'>
+    <meta itemprop="image" content='@((ViewBag.Image!=null)?ViewBag.Image:"")'>
+
+    <meta property="og:title" content='@((ViewBag.Title!=null)?ViewBag.Title : "")' />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content='@((ViewBag.Image!=null)?ViewBag.Image:"")' />
+    <meta property="og:description" content='@((ViewBag.Description!=null)?ViewBag.Description:"")' />
+    <meta property="og:site_name" content="" />
+
+    <meta name="geo.placename" content="" />
+    <meta name="geo.region" content="VN-HP" />
+    <meta name="geo.position" content="" />
+    <meta name="ICBM" content="" />
+
+    <link rel="image_src" href='@((ViewBag.Image!=null)?ViewBag.Image:"")' />
+
+    <!--Site-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link href="~/Content/front/css/Site.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+<body ng-app="frontApp" style="background-color:#e2ecf5;">
+
+    <header class="col-md-12 col-lg-12 header">
+        <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:#1eac10">
+            <p class="col-md-9 col-xs-12 col-sm-9 Tit-Header">FULL HOUSE DỊCH VỤ DỌN NHÀ CHUYÊN NGHIỆP</p>
+            <p class="col-md-3  col-xs-12 col-sm-3 Phone-Header"><span class="fa fa-phone"> 0925 866 789</span></p>
+        </div>
+        <div class="col-md-4 col-lg-4">
+            <a href="/"><img src="~/Content/front/img/Logo.png" class="img-responsive Logo" alt="Full house" /></a>
+        </div>
+        <div class="col-md-8 col-lg-8">
+            <nav class="navbar navbar-default MenuBar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                        <ul class="nav navbar-nav">
+                            <li class="List-MenuBar1">@Html.ActionLink("Trang chủ", "Index", "Home")</li>
+                            <li class="List-MenuBar1"><a href="/gioi-thieu">Giới thiệu</a></li>
+                            <li class="List-MenuBar1"><a href="/dich-vu">Dịch vụ</a></li>
+                            <li class="List-MenuBar1"><a href="/bai-viet">Bài viết</a></li>
+                            <li class="List-MenuBar1"><a href="/lien-he">Liên hệ</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
+            </nav>
+        </div>
+    </header>
+
+    <div class="Body-Main">
+        @RenderBody()
+    </div>
+
+    <footer class="">
+        <div class="">
+            <div class="panel-body">
+                <div class="Top-Footer">
+                    <div class="col-md-3 col-xs-3">
+                        <img src="~/Content/front/img/DiaCauLogo.png" class="img-responsive" />
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h3 class="TieuDe-Top">TIẾT KIỆM TIỀN, TIẾT KIỆM THỜI GIAN, TIẾT KIỆM CHÍNH SỨC KHỎE CỦA BẠN</h3>
+                        <p class="NoiDung-Top">Trung bình mỗi một người bỏ ra 18 - 28 giờ đông hồ trong việc dọn dẹp nhà cửa.</p>
+                        <p class="NoiDung-Top">Chúng tôi có thể giúp bạn tiết kiệm 28 ngày trong một năm.</p>
+                    </div>
+                    <div class="col-md-5 col-xs-12 col-sm-12">
+                        <h3 class="Tit-Top">HÃY ĐỂ CHÚNG TÔI GIÚP BẠN</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-12 Form-Top">
+                        <div class="col-md-7">
+                            <input type="text" class="form-control" placeholder="Họ tên khách hàng" />
+                            <input type="text" class="form-control" placeholder="Số điện thoại" />
+                            <input type="text" class="form-control" placeholder="Địa chỉ" />
+                        </div>
+                        <div class="col-md-5">
+                            <button type="button" class="btn btn-success Button-LienHe">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-3 col-sm-6">
+                        <img src="~/Content/front/img/Logo.png" class="img-responsive" />
+                    </div>
+                    <div class="col-md-2 col-xs-12 col-sm-12 Mid-Footer hidden-sm hidden-xs">
+                        <ul class="MenuBar-Bottom" style="color:rgb(19, 124, 254); font-weight:bold;">
+                            <li><a href="/" class="Item-Bottom">Trang chủ</a></li>
+                            <li><a href="/gioi-thieu" class="Item-Bottom">Giới thiệu</a></li>
+                            <li><a href="/dich-vu" class="Item-Bottom">Dịch vụ</a></li>
+                            <li><a href="/bai-viet" class="Item-Bottom">Bài viết</a></li>
+                            <li><a href="/lien-he" class="Item-Bottom">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 Mid-Footer hidden-md hidden-xs visible-sm">
+                        <ul class="MenuBar-Bottom" style="color:rgb(19, 124, 254); font-weight:bold;">
+                            <li><a href="/dich-vu/don-nha-theo-tieng" class="Item-Bottom">Dọn nhà theo tiếng</a></li>
+                            <li><a href="/dich-vu/ve-sinh-van-phong" class="Item-Bottom">Vệ sinh văn phòng</a></li>
+                            <li><a href="/dich-vu/ve-sinh-cong-nghiep" class="Item-Bottom">Vệ sinh công nghiệp</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <div class="col-md-4 Mid-Footer hidden-sm">
+                            <ul class="MenuBar-Bottom" style="color:rgb(19, 124, 254); font-weight:bold;">
+                                <li><a href="/dich-vu/don-nha-theo-tieng" class="Item-Bottom">Dọn nhà theo tiếng</a></li>
+                                <li><a href="/dich-vu/ve-sinh-van-phong" class="Item-Bottom">Vệ sinh văn phòng</a></li>
+                                <li><a href="/dich-vu/ve-sinh-cong-nghiep" class="Item-Bottom">Vệ sinh công nghiệp</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="Phone-Footer" style="color:rgb(19, 124, 254); border-bottom:thick solid rgb(10, 146, 26); font-size: 2em; padding-bottom: 10px;">Thông tin liên hệ</h2>
+                            <h3 class="Phone-Footer">
+                                <span style="color:red">Phone: </span>
+                                <span style="color:blue">0313 78 1809 </span>
+                                <br />
+                                <span style="color:red">Hotline: </span>
+                                <span style="color:blue">0925 866 789</span>
+                            </h3>
+                            <h3 class="DiaChi-Footer" style="text-align:center">
+                                <span style="color:red">Địa chỉ: </span>
+                                <span style="color:blue">50 Thiên Lôi, Hải Phòng</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:#1eac10;text-align:center;font-size:1em;font-weight:bold;color:#ffffff;">
+                    <p style="margin-top: 10px;">&copy; Copyright by <a href="http://ketnoitrejsc.com/" style="color: #fff;">Kết nối trẻ</a></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <!--Share Facebook-->
+    @*<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>*@
+
+    <!--AngularJS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="~/Scripts/angular-sanitize.min.js"></script>
+    <script src="~/Scripts/angular-cookies.min.js"></script>
+
+    <!--MY-->
+    <script src="~/Scripts/front/frontApp.min.js"></script>
+    <script src="~/Scripts/front/categoryProductFactory.min.js"></script>
+    <script src="~/Scripts/front/categoryPostFactory.min.js"></script>
+    @*<script src="~/Scripts/front/frontApp.js"></script>*@
+    @*<script src="~/Scripts/front/categoryProductFactory.js"></script>*@
+    @*<script src="~/Scripts/front/categoryPostFactory.js"></script>*@
+    <!--Banner-->
+    <script src="~/Scripts/front/bannerController.js"></script>
+    @*<script src="~/Scripts/front/bannerController.js"></script>*@
+    <!--Tabs-->
+    <script src="~/Scripts/front/tabController.js"></script>
+    @*<script src="~/Scripts/front/tabController.js"></script>*@
+    <!--Video-->
+    <script src="~/Scripts/front/videoController.js"></script>
+    @*<script src="~/Scripts/front/videoController.js"></script>*@
+    <!--Category-->
+    <script src="~/Scripts/front/allCategoryProductController.js"></script>
+    @*<script src="~/Scripts/front/allCategoryProductController.js"></script>*@
+    <script src="~/Scripts/front/childCategoryProductController.js"></script>
+    @*<script src="~/Scripts/front/childCategoryProductController.js"></script>*@
+    @*<script src="~/Scripts/front/menuCategoryPostController.min.js"></script>*@
+    <script src="~/Scripts/front/menuCategoryPostController.js"></script>
+    <script src="~/Scripts/front/allCategoryPostController.js"></script>
+    @*<script src="~/Scripts/front/allCategoryPostController.js"></script>*@
+    <script src="~/Scripts/front/childCategoryPostController.js"></script>
+    @*<script src="~/Scripts/front/childCategoryPostController.js"></script>*@
+
+    <!--Product-->
+    <script src="~/Scripts/front/showProductController.js"></script>
+    @*<script src="~/Scripts/front/showProductController.js"></script>*@
+    <!--Post-->
+    <script src="~/Scripts/front/showPostController.js"></script>
+    @*<script src="~/Scripts/front/showPostController.js"></script>*@
+
+    <!--Menu-->
+    <script src="~/Scripts/front/menuMainController.min.js"></script>
+    @*<script src="~/Scripts/front/menuMainController.js"></script>*@
+
+    <!--Seach-->
+    <script src="~/Scripts/front/searchController.min.js"></script>
+    @*<script src="~/Scripts/front/searchController.js"></script>*@
+    <script src="~/Scripts/front/showSearchController.min.js"></script>
+    <script src="~/Scripts/front/showSearchController.js"></script>
+
+    <!--Chat-->
+    <!--Register-->
+    <script src="~/Scripts/front/cusRegisterController.js"></script>
+
+    <!--Pagination-->
+    <script src="~/Scripts/front/pagination/dirPagination.min.js"></script>
+
+    <!--Google Analytic-->
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿
+<div class="column Menu-Trai" ng-controller="menuCategoryPostController"> 
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active" style="text-align:center;">
+            <a><strong>Dich vụ {{name}}</strong></a>
+        </li>
+        <li ng-repeat="(index, value) in dichvus" style="background-color: #fff">
+            <a href="/dich-vu/{{value.alias}}" style="color:#000000">
+                <span class="glyphicon glyphicon-chevron-right"></span> {{value.title}}
+            </a>
+        </li>
+    </ul>
+
+    <div class="relate-post-feature" ng-repeat="(index, value) in posts" ng-show="index < 3" style="background-color: #fff; margin-top: 10px;">
+        <a title="{{value.title}}" href="/bai-viet/{{value.alias}}-{{value.idPost}}"><img src="{{value.image}}" alt="{{value.title}}" title="{{value.title}}" class="img-responsive" /></a>
+        <p class="title-child"><a href="/bai-viet/{{value.alias}}-{{value.idPost}}" title="{{value.title}}">{{value.title}}</a></p>
+        <div class="description-child">{{value.description}}</div>
+    </div>
+</div>
