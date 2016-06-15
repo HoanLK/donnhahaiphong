@@ -10,7 +10,7 @@ namespace CMS.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Dầu nhớt Mobil chính hãng";
+            ViewBag.Title = "Full house (dịch vụ chọn nhà chuyên nghiệp)";
 
             return View();
         }

@@ -4,52 +4,60 @@
 }
 
 /*Post*/
-child-post{
+child-post {
     margin: 20px 0;
     height: 180px;
 }
-.child-post .title-child-post{
+
+.child-post .title-child-post {
     float: left;
     width: 25%;
 }
-.child-post .text{
+
+.child-post .text {
     float: left;
     width: 70%;
     margin-left: 15px;
 }
-.child-post .text a{
-    font-size: 1.5em;
-    color: #3a3a3a;
-}
-.child-post .text a:hover{
-    color: #0a47ba;
-}
-.child-post .description{
+
+    .child-post .text a {
+        font-size: 1.5em;
+        color: #3a3a3a;
+    }
+
+        .child-post .text a:hover {
+            color: #0a47ba;
+        }
+
+.child-post .description {
     line-height: 22px;
 }
 
 /*Relate post*/
-.relate-post-feature{
+.relate-post-feature {
     background: #f1f1f1;
     margin: 0 0 2.5em 0;
     padding-bottom: 10px;
 }
-.relate-post-feature img{
-    width: 100%;
-}
-.relate-post-feature .title-child{
-    padding: 0.3333333333em 0.66666666666em 0;
-}
-.relate-post-feature .title-child a{
-    color: #3a3a3a;
-    font-size: 1.2em;
-    font-weight: 600;
-    
-}
-.relate-post-feature .description-child{
-    margin:0 0 0.5714285714em;
-    padding: 0 0.8571428571em;
-}
+
+    .relate-post-feature img {
+        width: 100%;
+    }
+
+    .relate-post-feature .title-child {
+        padding: 0.3333333333em 0.66666666666em 0;
+    }
+
+        .relate-post-feature .title-child a {
+            color: #3a3a3a;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+    .relate-post-feature .description-child {
+        margin: 0 0 0.5714285714em;
+        padding: 0 0.8571428571em;
+    }
 
 
 
@@ -60,8 +68,8 @@ child-post{
         font-weight: bold;
         color: #ffffff;
         font-family: Arial;
-        padding-left:0px;
-        padding-right:0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .Tit-Header {
@@ -88,9 +96,9 @@ child-post{
         display: none;
     }
 
-    .Banner{
-        padding-left:0px;
-        padding-right:0px;
+    .Banner {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .TieuDe-Top {
@@ -142,7 +150,6 @@ child-post{
 
     .DiaChi {
         font-weight: bold;
-        text-align: center;
         font-size: 20px;
     }
 
@@ -159,7 +166,7 @@ child-post{
     .DichVu-All {
         margin-bottom: 3px;
         margin-top: 3px;
-        height:190px;
+        height: 190px;
     }
 
     .TieuDe-NoiDung {
@@ -171,15 +178,15 @@ child-post{
         font-size: 12px;
         font-weight: bold;
         height: 30px;
-        width:100%;
+        width: 100%;
         z-index: 2;
         position: absolute;
-        padding-top:7px;
+        padding-top: 7px;
     }
 
     .btn-Xem {
         height: 30px;
-        width:100%;
+        width: 100%;
         position: absolute;
         text-align: center;
         font-size: 12px;
@@ -188,29 +195,30 @@ child-post{
         padding: 2px 4px;
         border: 1px solid transparent;
         z-index: 2;
+        background-color: rgba(57, 132, 57, 0.6);
     }
 
     .ChuThich-NoiDung {
         margin-top: -30px;
-        margin-left:-5%;
-        margin-right:5%;
+        margin-left: -5%;
+        margin-right: 5%;
         z-index: 2;
     }
 
-    .navbar-default .navbar-nav > li > a{
-        color:#137CFE;
+    .navbar-default .navbar-nav > li > a {
+        color: #137CFE;
     }
 
-    .navbar-default .navbar-nav > li > a:hover{
-        color:red;
+        .navbar-default .navbar-nav > li > a:hover {
+            color: red;
+        }
+
+    .panel-body {
+        background-color: #ffffff;
     }
 
-    .panel-body{
-        background-color:#ffffff;
-    }
-
-    .navbar-default{
-        border-color:transparent;
+    .navbar-default {
+        border-color: transparent;
     }
 }
 
@@ -222,8 +230,8 @@ child-post{
         font-weight: bold;
         color: #ffffff;
         font-family: Arial;
-        padding-left:0px;
-        padding-right:0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .Tit-Header {
@@ -275,9 +283,9 @@ child-post{
         color: #337ab7;
     }
 
-    .Banner{
-        padding-left:0px;
-        padding-right:0px;
+    .Banner {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .Top-Footer {
@@ -311,19 +319,19 @@ child-post{
         color: rgb(19, 124, 254);
     }
 
-    .Item-Bottom{
-        color:rgb(19, 124, 254);
+    .Item-Bottom {
+        color: rgb(19, 124, 254);
     }
 
-    .Item-Bottom:hover{
-        color:rgb(19, 124, 254);
-        text-decoration: underline;
-    }
+        .Item-Bottom:hover {
+            color: rgb(19, 124, 254);
+            text-decoration: underline;
+        }
 
     .DichVu-All {
         margin-bottom: 10px;
         margin-top: 10px;
-        height:180px;
+        height: 180px;
     }
 
     .TieuDe-NoiDung {
@@ -334,7 +342,7 @@ child-post{
         font-size: 18px;
         font-weight: bold;
         height: 30px;
-        width:100%;
+        width: 100%;
         z-index: 2;
         position: absolute;
         white-space: nowrap;
@@ -342,7 +350,7 @@ child-post{
 
     .btn-Xem {
         height: 30px;
-        width:100%
+        width: 100%;
         position: absolute;
         text-align: center;
         font-size: 14px;
@@ -351,29 +359,30 @@ child-post{
         padding: 6px 12px;
         border: 1px solid transparent;
         z-index: 2;
+        background-color: rgba(57, 132, 57, 0.6);
     }
 
     .ChuThich-NoiDung {
         margin-top: -30px;
-        margin-left:-3.5%;
-        margin-right:-4.5%;
+        margin-left: -3.5%;
+        margin-right: -4.5%;
         z-index: 2;
     }
 
-    .navbar-default .navbar-nav > li > a{
-        color:#137CFE;
+    .navbar-default .navbar-nav > li > a {
+        color: #137CFE;
     }
 
-    .navbar-default .navbar-nav > li > a:hover{
-        color:red;
+        .navbar-default .navbar-nav > li > a:hover {
+            color: red;
+        }
+
+    .panel-body {
+        background-color: #ffffff;
     }
 
-    .panel-body{
-        background-color:#ffffff;
-    }
-
-    .navbar-default{
-        border-color:transparent;
+    .navbar-default {
+        border-color: transparent;
     }
 }
 
@@ -386,9 +395,7 @@ child-post{
         font-weight: bold;
         color: #ffffff;
         font-family: Arial;
-        padding-left:0px;
-        padding-right:0px;
-        margin-bottom:5px;
+        margin-bottom: 10px;
     }
 
     .Tit-Header {
@@ -412,28 +419,32 @@ child-post{
         margin-top: 40px;
         font-size: 20px;
         margin-left: 100px;
-        background-color:transparent;
+        background-color: transparent;
     }
 
     .List-MenuBar1 {
         margin-left: 25px;
     }
 
-    .navbar-default .navbar-nav > li > a{
-        color:#137CFE;
+    .navbar-default .navbar-nav > li > a {
+        color: #137CFE;
     }
 
-    .navbar-default .navbar-nav > li > a:hover{
-        color:red;
+        .navbar-default .navbar-nav > li > a:hover {
+            color: red;
+        }
+
+    .panel-body {
+        background-color: #ffffff;
     }
 
-    .panel-body{
-        background-color:#ffffff;
-        padding-bottom:0px;
+    .Body-Top > .panel-body {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-    .navbar-default{
-        border-color:transparent;
+    .navbar-default {
+        border-color: transparent;
     }
     /*Footer*/
     .Top-Footer {
@@ -443,16 +454,16 @@ child-post{
         height: 400px;
     }
 
-    .Phone-Footer{
-        font-size:20px;
+    .Phone-Footer {
+        font-size: 20px;
         font-weight: bold;
-    text-align: center;
+        text-align: center;
     }
 
-    .DiaChi-Footer{
-        font-size:20px;
+    .DiaChi-Footer {
+        font-size: 20px;
         font-weight: bold;
-    text-align: center;
+        text-align: center;
     }
 
     .Mid-Footer {
@@ -510,6 +521,10 @@ child-post{
         color: #ffffff;
     }
 
+    .DiaChi > span > a:hover{
+        text-decoration: underline dashed;
+    }
+
     .Form-Top {
         padding-top: 20px;
     }
@@ -518,13 +533,13 @@ child-post{
     .DichVu-All {
         margin-bottom: 10px;
         margin-top: 10px;
-        height:320px;
+        height: 320px;
     }
 
     .Body-Top {
-        background-color: #ffffff;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        background-color: #e2ecf5;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     .Body-Bot {
@@ -546,14 +561,14 @@ child-post{
     }
 
     .Menu-Trai {
-        margin-left: -17px;
-        margin-right: -15px;
+        margin-left: -22px;
+        margin-right: -2px;
     }
 
     .DichVu-Main {
-        margin-left: 60px;
-        margin-right: 60px;
-        margin-top:7px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 7px;
     }
 
     .TieuDe {
@@ -574,35 +589,35 @@ child-post{
         margin-top: 30px;
     }
 
-    .Banner{
-        padding-left:0px;
-        padding-right:0px;
+    .Banner {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
-    .carousel-control{
-        width:10%;
+    .carousel-control {
+        width: 10%;
     }
 
     .TieuDe-NoiDung {
         display: inline-block;
         text-align: center;
         color: #fff;
-        float:left;
+        float: left;
         background-color: rgba(19, 124, 254, 0.6);
         border-color: #4cae4c;
         font-size: 25px;
         font-weight: bold;
         height: 52px;
-        width:100%;
+        width: 100%;
         z-index: 2;
         position: absolute;
         padding-top: 7px;
     }
 
     .btn-Xem {
-        width:100%;
+        width: 100%;
         height: 52px;
-        float:right;
+        float: right;
         position: absolute;
         text-align: center;
         font-size: 25px;
@@ -611,6 +626,7 @@ child-post{
         padding: 2px 4px;
         border: 1px solid transparent;
         z-index: 2;
+        background-color: rgba(57, 132, 57,0.6);
     }
 
         .btn-Xem:hover {
@@ -619,8 +635,8 @@ child-post{
 
     .ChuThich-NoiDung {
         margin-top: -52px;
-        margin-left:-2.5%;
-        margin-right:2.5%;
+        margin-left: -2.5%;
+        margin-right: 2.5%;
         z-index: 2;
     }
 
@@ -680,7 +696,6 @@ child-post{
 
 .DiaChi {
     font-weight: bold;
-    text-align: center;
 }
 
 

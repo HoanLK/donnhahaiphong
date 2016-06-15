@@ -187,7 +187,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="bower_components\sweetalert\" />
     <Folder Include="Content\admin\js\core\cache\" />
-    <Folder Include="Content\Images\files\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -2256,6 +2255,11 @@
     <Content Include="Content\front\js\respond.matchmedia.addListener.min.js" />
     <Content Include="Content\front\js\respond.min.js" />
     <None Include="Content\front\js\_references.js" />
+    <Content Include="Content\Images\file\GioiThieu1.jpg" />
+    <Content Include="Content\Images\file\GioiThieu2.jpg" />
+    <Content Include="Content\Images\file\GioiThieu3.jpg" />
+    <Content Include="Content\Images\file\GioiThieu4.jpg" />
+    <Content Include="Content\Images\file\GioiThieu5.jpg" />
     <Content Include="Content\Images\images\10556372_324607641073956_4378838818034648633_n_20150208084435244.jpg" />
     <Content Include="Content\Images\images\Anonymous avatar.png" />
     <Content Include="Content\Images\images\Anonymous.png" />
@@ -2270,6 +2274,7 @@
     <Content Include="Content\Images\images\CTA-KhongXoa\dai ly.jpg" />
     <Content Include="Content\Images\images\CTA-KhongXoa\faq.jpg" />
     <Content Include="Content\Images\images\CTA-KhongXoa\favicon.png" />
+    <Content Include="Content\Images\images\CTA-KhongXoa\Logo.png" />
     <Content Include="Content\Images\images\CTA-KhongXoa\san pham.jpg" />
     <Content Include="Content\Images\images\danh muc bai viet\bao duong xe.jpg" />
     <Content Include="Content\Images\images\danh muc bai viet\bao duong xe\1.jpg" />
@@ -2387,6 +2392,7 @@
     <Content Include="Content\Images\_thumbs\Images\CTA-KhongXoa\dai ly.jpg" />
     <Content Include="Content\Images\_thumbs\Images\CTA-KhongXoa\faq.jpg" />
     <Content Include="Content\Images\_thumbs\Images\CTA-KhongXoa\favicon.png" />
+    <Content Include="Content\Images\_thumbs\Images\CTA-KhongXoa\Logo.png" />
     <Content Include="Content\Images\_thumbs\Images\CTA-KhongXoa\san pham.jpg" />
     <Content Include="Content\Images\_thumbs\Images\danh muc bai viet\bao duong xe.jpg" />
     <Content Include="Content\Images\_thumbs\Images\danh muc bai viet\bao duong xe\1.jpg" />
@@ -2613,9 +2619,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
@@ -2999,6 +3002,7 @@
     <None Include="Project_Readme.html" />
     <Content Include="Views\Account\Register.cshtml" />
     <None Include="Properties\PublishProfiles\FullHouse.pubxml" />
+    <None Include="Properties\PublishProfiles\host.pubxml" />
     <None Include="Properties\PublishProfiles\Mobil.pubxml" />
     <Content Include="Views\DanhMucBaiViet\Index.cshtml" />
     <Content Include="Views\DanhMucBaiViet\Show.cshtml" />
