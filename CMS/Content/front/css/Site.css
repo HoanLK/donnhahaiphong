@@ -50,13 +50,14 @@ child-post {
 
         .relate-post-feature .title-child a {
             color: #3a3a3a;
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: 600;
         }
 
     .relate-post-feature .description-child {
         margin: 0 0 0.5714285714em;
         padding: 0 0.8571428571em;
+        font-size:0.8em;
     }
 
 
