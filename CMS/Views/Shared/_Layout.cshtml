@@ -13,7 +13,7 @@
     <meta name="robots" content='@((ViewBag.Robots!=null)?ViewBag.Robots:"index, noop, follow")' />
     <meta http-equiv="content-language" content="vi" />
     <link href="~/Content/Images/images/CTA-KhongXoa/Logo.png" rel="shortcut icon" type="image/x-icon" />
-    <link rel="alternate" href="http://www.daunhotmobilchinhhang.com/" hreflang="vn-vi" />
+    <link rel="alternate" href="http://www.donnhataihaiphong.com/" hreflang="vi" />
 
     <meta itemprop="name" content='@((ViewBag.Title!=null)?ViewBag.Title : "")'>
     <meta itemprop="description" content='@((ViewBag.Description!=null)?ViewBag.Description:"")'>
@@ -50,32 +50,37 @@
             <p class="col-md-9 col-xs-12 col-sm-9 Tit-Header">FULL HOUSE DỊCH VỤ DỌN NHÀ CHUYÊN NGHIỆP</p>
             <p class="col-md-3  col-xs-12 col-sm-3 Phone-Header"><span class="fa fa-phone"> 0925 866 789</span></p>
         </div>
-        <div class="col-md-4 col-lg-4">
-            <a href="/"><img src="~/Content/front/img/Logo.png" class="img-responsive Logo" alt="Full house" /></a>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                <a href="/" style="text-align: center;">
+                    <img src="~/Content/front/img/Logo.png" class="img-responsive Logo" alt="Full house" />
+                </a>
+            </div>
+            <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                <nav class="navbar navbar-default MenuBar">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                            <ul class="nav navbar-nav">
+                                <li class="List-MenuBar1">@Html.ActionLink("Trang chủ", "Index", "Home")</li>
+                                <li class="List-MenuBar1"><a href="/gioi-thieu">Giới thiệu</a></li>
+                                <li class="List-MenuBar1"><a href="/dich-vu">Dịch vụ</a></li>
+                                <li class="List-MenuBar1"><a href="/bai-viet">Tin tức</a></li>
+                                <li class="List-MenuBar1"><a href="/lien-he">Liên hệ</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </nav>
+            </div>
         </div>
-        <div class="col-md-8 col-lg-8">
-            <nav class="navbar navbar-default MenuBar">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                        <ul class="nav navbar-nav">
-                            <li class="List-MenuBar1">@Html.ActionLink("Trang chủ", "Index", "Home")</li>
-                            <li class="List-MenuBar1"><a href="/gioi-thieu">Giới thiệu</a></li>
-                            <li class="List-MenuBar1"><a href="/dich-vu">Dịch vụ</a></li>
-                            <li class="List-MenuBar1"><a href="/bai-viet">Tin tức</a></li>
-                            <li class="List-MenuBar1"><a href="/lien-he">Liên hệ</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
-                </div><!--/.container-fluid -->
-            </nav>
-        </div>
+
     </header>
 
     <div class="Body-Main">

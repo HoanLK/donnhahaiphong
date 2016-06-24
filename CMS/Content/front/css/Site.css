@@ -1,7 +1,4 @@
-﻿body {
-    background-color: #e2ecf5;
-    font-family: Arial;
-}
+﻿
 
 /*Post*/
 child-post {
@@ -57,13 +54,18 @@ child-post {
     .relate-post-feature .description-child {
         margin: 0 0 0.5714285714em;
         padding: 0 0.8571428571em;
-        font-size:0.9em;
+        font-size: 0.9em;
     }
 
 
 
 /* Small devices (phone, <768px) */
 @media (max-width: 767px) {
+    body {
+    background-color: #ffffff;
+    font-family: Arial;
+}
+    
     .header {
         font-size: 11px;
         font-weight: bold;
@@ -71,6 +73,12 @@ child-post {
         font-family: Arial;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .Logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .Tit-Header {
@@ -225,6 +233,11 @@ child-post {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 767px) {
+    body {
+    background-color: #ffffff;
+    font-family: Arial;
+}
+    
     .header {
         background-color: #ffffff;
         font-size: 20px;
@@ -294,6 +307,12 @@ child-post {
         background-size: 100%;
         background-repeat: no-repeat;
         height: 300px;
+    }
+
+    .Logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .Mid-Footer {
@@ -389,6 +408,11 @@ child-post {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    body {
+    background-color: #e2ecf5;
+    font-family: Arial;
+}
+    
     /*header*/
     .header {
         background-color: #ffffff;
@@ -522,7 +546,7 @@ child-post {
         color: #ffffff;
     }
 
-    .DiaChi > span > a:hover{
+    .DiaChi > span > a:hover {
         text-decoration: underline dashed;
     }
 
