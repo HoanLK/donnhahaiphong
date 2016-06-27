@@ -10,7 +10,7 @@
             @Html.Partial("_MenuCategoryPost")
         </div>
     </div>
-    <div class="col-md-9 right panel panel-info" style="background-color:#ffffff ;margin-top: 20px;">
+    <div class="col-md-9 col-sm-12 right panel panel-info" style="background-color:#ffffff ;margin-top: 20px;">
         <div class="panel" style="text-align:center; border-bottom-color:#0A921A">
             <h3 style="color:#137CFE; font-size:40px;">Tin tức</h3>
         </div>
@@ -19,7 +19,7 @@
                 @*<input type="hidden" value="@Model.idCategory" id="idCategory" />*@
                 <div class="container-fluid">
                     @*<div class="col-md-6" ng-repeat="(index, value) in categories">*@
-                    <div class="col-md-6" dir-paginate="(index, value) in posts | itemsPerPage:12" style="margin-bottom: 20px;">
+                    <div class="col-md-6 TinTuc" dir-paginate="(index, value) in posts | itemsPerPage:12" style="margin-bottom: 20px;">
                         <div class="child-post">
                             <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="title-child-post"><img src="{{value.image}}" class="img-responsive" /></a>
                             <div class="text">

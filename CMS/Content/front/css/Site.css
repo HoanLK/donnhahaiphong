@@ -1,7 +1,7 @@
 ﻿
 
 /*Post*/
-child-post {
+/*child-post {
     margin: 20px 0;
     height: 180px;
 }
@@ -18,7 +18,7 @@ child-post {
 }
 
     .child-post .text a {
-        font-size: 1.5em;
+        font-size: 1.4em;
         color: #3a3a3a;
     }
 
@@ -28,7 +28,7 @@ child-post {
 
 .child-post .description {
     line-height: 22px;
-}
+}*/
 
 /*Relate post*/
 .relate-post-feature {
@@ -61,11 +61,46 @@ child-post {
 
 /* Small devices (phone, <768px) */
 @media (max-width: 767px) {
+    /*Post*/
+    .TinTuc{
+        overflow:hidden;
+        height:1%;
+    }
+
+    child-post {
+        margin: 20px 0;
+        height: 180px;
+    }
+
+    .child-post .title-child-post {
+        float: left;
+        width: 100%;
+    }
+
+    .child-post .text {
+        float: left;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+        .child-post .text a {
+            font-size: 1.4em;
+            color: #3a3a3a;
+        }
+
+            .child-post .text a:hover {
+                color: #0a47ba;
+            }
+
+    .child-post .description {
+        line-height: 22px;
+    }
+
     body {
-    background-color: #ffffff;
-    font-family: Arial;
-}
-    
+        background-color: #ffffff;
+        font-family: Arial;
+    }
+
     .header {
         font-size: 11px;
         font-weight: bold;
@@ -233,11 +268,46 @@ child-post {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 767px) {
+    /*Post*/
+    .TinTuc{
+        overflow:hidden;
+        height:1%;
+    }
+
+    child-post {
+        margin: 20px 0;
+        height: 180px;
+    }
+
+    .child-post .title-child-post {
+        float: left;
+        width: 25%;
+    }
+
+    .child-post .text {
+        float: left;
+        width: 70%;
+        margin-left: 15px;
+    }
+
+        .child-post .text a {
+            font-size: 1.4em;
+            color: #3a3a3a;
+        }
+
+            .child-post .text a:hover {
+                color: #0a47ba;
+            }
+
+    .child-post .description {
+        line-height: 22px;
+    }
+
     body {
-    background-color: #ffffff;
-    font-family: Arial;
-}
-    
+        background-color: #ffffff;
+        font-family: Arial;
+    }
+
     .header {
         background-color: #ffffff;
         font-size: 20px;
@@ -408,11 +478,41 @@ child-post {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    /*Post*/
+    child-post {
+        margin: 20px 0;
+        height: 180px;
+    }
+
+    .child-post .title-child-post {
+        float: left;
+        width: 25%;
+    }
+
+    .child-post .text {
+        float: left;
+        width: 70%;
+        margin-left: 15px;
+    }
+
+        .child-post .text a {
+            font-size: 1.4em;
+            color: #3a3a3a;
+        }
+
+            .child-post .text a:hover {
+                color: #0a47ba;
+            }
+
+    .child-post .description {
+        line-height: 22px;
+    }
+
     body {
-    background-color: #e2ecf5;
-    font-family: Arial;
-}
-    
+        background-color: #e2ecf5;
+        font-family: Arial;
+    }
+
     /*header*/
     .header {
         background-color: #ffffff;
@@ -681,6 +781,10 @@ child-post {
             -o-transform: scale(1.1); /*Opera scale version*/
             z-index: 1;
         }
+
+    .TinTuc {
+        height: 120px;
+    }
 }
 
 /*Hiệu ứng phần dịch vụ*/
