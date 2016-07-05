@@ -2201,6 +2201,9 @@
     <Content Include="Content\front\css\font-awesome.css" />
     <Content Include="Content\front\css\font-awesome.min.css" />
     <Content Include="Content\front\css\Site.css" />
+    <Content Include="Content\front\css\site.min.css">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
     <Content Include="Content\front\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\front\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\front\img\20131201090840-giupviectheogio2.jpg" />
