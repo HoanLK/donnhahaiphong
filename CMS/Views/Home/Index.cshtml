@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Full house (dịch vụ chọn nhà chuyên nghiệp)";
+    ViewBag.Title = "Dịch vụ dọn nhà";
 }
 
 @Html.Partial("_Banner")
@@ -12,11 +12,11 @@
                 <p>Giới thiệu về chúng tôi</p>
                 <a href="/gioi-thieu" class="btn btn-success" rel="tooltip" title="Xem thông tin chi tiết">Xem thông tin</a>
             </div>
-            <a href="/gioi-thieu"><img src="~/Content/front/img/GioiThieu.png" class="img-responsive img-BodyTop" alt="Giới thiệu về chúng tôi" /></a>
+            <a href="/gioi-thieu"><img src="~/Content/front/img/GioiThieu.png" class="img-responsive img-BodyTop" alt="Giới thiệu về chúng tôi" style="width:100%" /></a>
         </div>
         <div class="col-md-3 col-xs-12 col-sm-6 Top-Tooltip">
             <a href="/lien-he">
-                <img src="~/Content/front/img/TimChungToi.png" class="img-responsive img-BodyTop" alt="Chúng tôi ở đây" />
+                <img src="~/Content/front/img/TimChungToi.png" class="img-responsive img-BodyTop" alt="Chúng tôi ở đây" style="width:100%"  />
             </a>
             <div class="Tooltip caption hidden-xs">
                 <p>Bạn muốn tìm chúng tôi!</p>
@@ -24,14 +24,14 @@
             </div>
         </div>
         <div class="col-md-3 col-xs-12 col-sm-6 Top-Tooltip">
-            <a href="/dich-vu"><img src="~/Content/front/img//DangKyDichVu.png" class="img-responsive img-BodyTop" alt="Đang ký dịch vụ" /></a>
+            <a href="/dich-vu"><img src="~/Content/front/img//DangKyDichVu.png" class="img-responsive img-BodyTop" alt="Đang ký dịch vụ" style="width:100%" /></a>
             <div class="Tooltip caption hidden-xs">
                 <p>Đăng ký dịch vụ ngay!</p>
                 <a href="/dich-vu" class="btn btn-success" rel="tooltip" title="Xem thông tin chi tiết">Xem thông tin</a>
             </div>
         </div>
         <div class="col-md-3 col-xs-12 col-sm-6 Top-Tooltip">
-            <a href="/bai-viet"><img src="~/Content/front/img//KienThuc.png" class="img-responsive img-BodyTop" alt="Kiến thức chuyên sâu" /></a>
+            <a href="/bai-viet"><img src="~/Content/front/img//KienThuc.png" class="img-responsive img-BodyTop" alt="Kiến thức chuyên sâu" style="width:100%" /></a>
             <div class="Tooltip caption hidden-xs">
                 <p>Kiến thức cần biết</p>
                 <a href="/bai-viet" class="btn btn-success" rel="tooltip" title="Xem thông tin chi tiết">Xem thông tin</a>
@@ -42,8 +42,8 @@
 
 <div class="col-md-12 col-sm-12 col-xs-12 Body-Mid">
     <div class="panel-body">
-        <div class="col-md-12" style="text-align:center; border-bottom:3px solid #0A921A; background-color:#ffffff">
-            <p style="color:#137CFE; font-size:40px;">Dịch vụ của chúng tôi</p>
+        <div class="col-md-12 col-sm-12 col-xs-12" style="text-align:center; border-bottom:3px solid #0A921A; background-color:#ffffff">
+            <p class="ChuDe">Dịch vụ của chúng tôi</p>
         </div>
         <div class="DichVu-Main col-md-12">
             <div class="col-md-6 col-xs-12 col-sm-6 DichVu-All">
@@ -106,7 +106,7 @@
 <div style="background-color:#ffffff">
     <div class="panel-body">
         <div class="" style="text-align:center; border-bottom:3px solid #0A921A; background-color:#ffffff">
-            <h3 style="color:#137CFE; font-size:40px;">Lý do chọn chúng tôi</h3>
+            <h3  class="ChuDe">Lý do chọn chúng tôi</h3>
         </div>
         <div class="Body-Bot">
             <div class="col-md-6">
@@ -122,20 +122,20 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <div class="col-md-2">
+                <div class="col-md-2 col-sm-2 col-xs-12">
                     <img src="~/Content/front/img//TietKiemLogo.png" class="img-responsive LogoNho" />
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-sm-10 col-xs-12">
                     <h3 class="TieuDe">Tiết kiệm</h3>
                     <p class="NoiDung">
                         Chúng tôi đảm bảo cung cấp dịch vụ dọn nhà cho quý khách. Vui lòng tham khảo bảng
                         giá <a href="#" style="color:#ff0000">tại đây</a>.
                     </p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 col-sm-2 col-xs-12">
                     <img src="~/Content/front/img//HieuQuaLogo.png" class="img-responsive LogoNho" />
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-sm-10 col-xs-12">
                     <h3 class="TieuDe">Hiệu quả</h3>
                     <p class="NoiDung">
                         Bạn chắc chắn sẽ hài lòng với dịch vụ dọn vệ sinh nhà cửa, văn phòng, vệ sinh công
@@ -143,11 +143,11 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-12">
-                <div class="col-md-3">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-xs-12">
                     <img src="~/Content/front/img//CleanHomeLogo.png" class="img-responsive LogoTo" />
                 </div>
-                <div class="col-md-9 LogoTo-Text">
+                <div class="col-md-9 col-sm-9 col-xs-12 LogoTo-Text">
                     <h3 class="TieuDe">Làm sạch căn nhà của bạn chính là sứ mạng của chúng tôi</h3>
                     <p class="NoiDung">
                         Sự hài lòng của bạn chính là tôn chỉ của chúng tôi. Vì thế cho nên, Dịch vụ của

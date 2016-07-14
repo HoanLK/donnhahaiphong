@@ -206,6 +206,7 @@
     <Compile Include="Areas\Admin\Controllers\VideosController.cs" />
     <Compile Include="Controllers\BaiVietController.cs" />
     <Compile Include="Controllers\BannersAPIController.cs" />
+    <Compile Include="Controllers\BaoGiaController.cs" />
     <Compile Include="Controllers\CustomerRegistersAPIController.cs" />
     <Compile Include="Controllers\DanhMucBaiVietController.cs" />
     <Compile Include="Controllers\DichVuController.cs" />
@@ -2191,6 +2192,7 @@
       <DependentUpon>Login.css</DependentUpon>
     </Content>
     <Content Include="Content\admin\css\Site.css" />
+    <Content Include="Content\front\css\BangBaoGia.css" />
     <Content Include="Content\front\css\bootstrap-theme.css" />
     <Content Include="Content\front\css\bootstrap-theme.min.css" />
     <Content Include="Content\front\css\bootstrap.css" />
@@ -2380,6 +2382,7 @@
     </Content>
     <Content Include="Scripts\angular-cookies.min.js" />
     <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\BangBaoGia.js" />
     <Content Include="Scripts\front\allCategoryPostController.min.js">
       <DependentUpon>allCategoryPostController.js</DependentUpon>
     </Content>
@@ -2525,6 +2528,7 @@
     <Content Include="Views\DichVu\Index.cshtml" />
     <Content Include="Views\LienHe\Index.cshtml" />
     <Content Include="Views\BaiViet\ShowAllBaiViet.cshtml" />
+    <Content Include="Views\BaoGia\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
