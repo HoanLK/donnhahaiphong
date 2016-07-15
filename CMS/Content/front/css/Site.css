@@ -75,22 +75,22 @@ body {
     font-weight: bold;
     color: #ffffff;
     font-family: Arial;
-    padding-left:0;
-    padding-right:0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .Tit-Header {
     text-align: right;
     font-size: 1em;
     font-weight: bold;
-    padding-top:0.7em;
+    padding-top: 0.7em;
     margin: 0;
 }
 
 .Phone-Header {
     text-align: center;
     font-size: 1.3em;
-    padding-top:0.2em;
+    padding-top: 0.2em;
 }
 
 .Logo {
@@ -103,8 +103,8 @@ body {
     padding-top: 1.2em;
     font-size: 1.2em;
     background-color: transparent;
-    position:static;
-    float:right;
+    position: static;
+    float: right;
 }
 
 .List-MenuBar1 {
@@ -117,6 +117,7 @@ body {
 
     .navbar-default .navbar-nav > li > a:hover {
         color: red;
+        text-decoration: dotted underline;
     }
 
 .panel-body {
@@ -130,6 +131,7 @@ body {
 .navbar-default {
     border-color: transparent;
 }
+
 /*Footer*/
 .Footer {
     padding: 0;
@@ -140,6 +142,8 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 25em;
+    overflow: hidden;
+    height: 1%;
 }
 
 .Phone-Footer {
@@ -223,8 +227,8 @@ body {
 
 .Body-Top {
     background-color: #e2ecf5;
-    padding:1.3em 6em 1.3em 6em;
-    z-index:1;
+    padding: 1.3em 6em 1.3em 6em;
+    z-index: 1;
 }
 
 .img-BodyTop {
@@ -232,7 +236,7 @@ body {
 }
 
 .Body-Bot {
-    margin:1.2em 2em 1.2em 3em;
+    margin: 1.2em 2em 1.2em 3em;
 }
 /*Nọi dung dịch vụ*/
 .NDDichVu {
@@ -247,11 +251,11 @@ body {
 }
 
 .Menu-Trai {
-    padding-left:2.5em;
+    padding-left: 2.5em;
 }
 
 .DichVu-Main {
-    padding:0.2em 2.2em 0 2.2em;
+    padding: 0.2em 2.2em 0 2.2em;
 }
 
 .TieuDe {
@@ -306,10 +310,10 @@ body {
     float: right;
     position: absolute;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: bold;
     display: inline-block;
-    padding-top:0.4em;
+    padding-top: 0.4em;
     border: 1px solid transparent;
     z-index: 2;
     background-color: rgba(57, 132, 57,0.6);
@@ -325,8 +329,8 @@ body {
     width: 100%;
 }
 
-.Body-Mid{
-    padding:0;
+.Body-Mid {
+    padding: 0;
 }
 
 .DichVu-All {
@@ -351,7 +355,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    left:0;
+    left: 0;
     background: rgba(66, 139, 202, 0.7);
     height: 100%;
     margin-left: 1em;
@@ -403,77 +407,126 @@ body {
     border-right: 4px solid #428bca;
 }
 
-@media (min-width:1400px){
-    .DichVu-All img{
-        width:100%;
+@media (min-width:1400px) {
+    .DichVu-All img {
+        width: 100%;
     }
 }
 
+/*table*/
 @media (min-width: 767px) {
-    .container-fluid{
-        padding:0;
+    .container-fluid {
+        padding: 0;
     }
 
-    .container-fluid>.navbar-collapse{
-        padding:0;
+        .container-fluid > .navbar-collapse {
+            padding: 0;
+        }
+
+            .container-fluid > .navbar-collapse.navbar-nav {
+                padding-top: 0.5em;
+                background-color: transparent;
+                position: static;
+                float: right;
+            }
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 0.5em;
+        font-size: 0.9em;
     }
 
-    .container-fluid>.navbar-collapse.navbar-nav {
-    padding-top: 0.5em;
-    background-color: transparent;
-    position:static;
-    float:right;
-}
-
-    .navbar-default .navbar-nav > li > a{
-        padding:0.5em;
-        font-size:0.9em;
+    .dropdown:focus .Menu2 {
+        display: block;
     }
+
+    .Menu2 {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        list-style: none;
+        color: #137CFE;
+        width: 11em;
+        background-color: #fff;
+        padding-left: 0.5em;
+    }
+
+        .Menu2 a:hover {
+            color: red;
+            text-decoration: dotted underline;
+        }
 
     .Tit-Header {
-    text-align: right;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding-top: 0.7em;
-    margin: 0;
-}
+        text-align: right;
+        font-size: 0.9em;
+        font-weight: bold;
+        padding-top: 0.7em;
+        margin: 0;
+    }
 
     .TieuDe-Top {
-    text-align: center;
-    padding-top: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    color: #ffffff;
-}
+        text-align: center;
+        padding-top: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        color: #ffffff;
+    }
 
     .NoiDung-Top {
-    text-align: center;
-    font-size: 0.9em;
-    font-weight: bold;
-    color: #ffffff;
-}
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: #ffffff;
+    }
 
     .Tit-Top {
-    text-align: center;
-    font-size: 2.2em;
-    font-weight: bold;
-    color: rgb(19, 124, 254);
-}
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        color: rgb(19, 124, 254);
+    }
+
+    .TieuDe-NoiDung {
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    .btn-Xem {
+        font-size: 1em;
+        height: 3em;
+    }
+
+    .ChuThich-NoiDung {
+        margin-top: -3em;
+    }
+
+    .Button-LienHe {
+        height: 2em;
+    }
+
+    .Form-Top {
+        padding-top: 1em;
+    }
 }
 
+/*Mobile*/
 @media (max-width: 767px) {
     .Tit-Header {
-    text-align: right;
-    font-size: 0.5em;
-    font-weight: bold;
-    padding-top: 0.3em;
-    margin: 0;
-}
+        text-align: right;
+        font-size: 0.5em;
+        font-weight: bold;
+        padding-top: 0.3em;
+        margin: 0;
+    }
 
     .Phone-Header {
-    text-align: center;
-    font-size: 0.9em;
-}
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .MidHeader {
+        position: initial;
+        padding: 0;
+    }
 
     .Logo {
         margin: 0 0 0 0;
@@ -482,138 +535,250 @@ body {
 
     .Menu {
         position: absolute;
+        width: 100%;
+        padding: 0;
     }
 
     .MenuBar {
-        padding-top: 0em;
         font-size: 1.2em;
-        background-color: transparent;
-        position: static;
         float: right;
         z-index: 2;
         position: relative;
         display: inline-block;
-        margin: 0;
+        width: 100%;
+        padding-top: 0.5em;
+    }
+
+    .navbar-nav {
+        margin: 0 -15px 0 -15px;
+    }
+
+    .dropdown:focus .Menu2 {
+        display: block;
+    }
+
+    .Menu2 {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        list-style: none;
+        color: #137CFE;
+        width: 11em;
+        background-color: #fff;
+        padding-left: 0.5em;
+    }
+
+        .Menu2 a:hover {
+            color: red;
+            text-decoration: dotted underline;
+        }
+
+    .Body-Top > .panel-body {
+        padding: 0;
     }
 
     .Body-Top {
-        padding: 1em 0em 1em 0em;
+        padding: 0;
         z-index: 1;
     }
 
-    .navbar-default .navbar-nav > li{
-        background-color:#fff;
+    .navbar-default .navbar-nav > li {
+        background-color: #fff;
+        background-color: #333;
+        border-bottom: 1px solid rgba(120, 120, 120, 0.2);
     }
 
-    .navbar-default .navbar-nav > li > a {
-    color: #137CFE;
-    font-size:1em;
-}
+        .navbar-default .navbar-nav > li > a {
+            color: #ddd;
+            padding: 1em 2em;
+            font-size: 0.6em;
+        }
 
     .ChuDe {
-    color: #137CFE;
-    font-size: 1.8em;
-    margin-top:0;
-}
+        color: #137CFE;
+        font-size: 1.8em;
+        margin-top: 0;
+    }
 
     .TieuDe-NoiDung {
-        font-size:0.8em;
+        font-size: 0.8em;
     }
 
-    .btn-Xem{
-        font-size:0.5em;
-        height:3.2em;
+    .btn-Xem {
+        font-size: 0.5em;
+        height: 3.2em;
     }
 
-    .ChuThich-NoiDung{
-        margin-top:-1.6em;
-    }
-    .DichVu-All{
-        margin-bottom:2em;
+    .ChuThich-NoiDung {
+        margin-top: -1.6em;
     }
 
-    .Main{
-        padding:0;
+    .DichVu-All {
+        margin-bottom: 2em;
+    }
+
+    .Main {
+        padding: 0;
     }
 
     .Body-Bot {
-    margin: 0.8em 0em 0.8em 0em;
-}
+        margin: 0.8em 0em 0.8em 0em;
+    }
 
     .TieuDe {
-    color: #099e1e;
-    font-weight: bold;
-    text-align: justify;
-    font-size:1.3em;
-}
+        color: #099e1e;
+        font-weight: bold;
+        text-align: justify;
+        font-size: 1.3em;
+    }
 
     .NoiDung {
-    font-weight: bold;
-    font-size: 1em;
-    text-align: justify;
-}
+        font-weight: bold;
+        font-size: 1em;
+        text-align: justify;
+    }
 
     .TieuDe-Top {
-    padding-top: 0.2em;
-    font-size: 0.5em;
-}
+        padding-top: 0.1em;
+        font-size: 0.5em;
+    }
 
     .NoiDung-Top {
-    font-size: 0.3em;
-}
+        font-size: 0.3em;
+    }
 
     .Tit-Top {
-    padding-top: 0.2em;
-    font-size: 0.8em;
-    color: #137CFE;
+        padding-top: 0.2em;
+        font-size: 0.8em;
+        color: #137CFE;
+    }
+
+    .Form-Top {
+        padding-top: 0;
+    }
+
+    .MenuBar-Bottom {
+        padding: 0;
+    }
+
+    .Button-LienHe {
+        height: 1.8em;
+    }
+
+    .TTLienHe {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Phone-Footer {
+        font-size: 1.4em;
+    }
+
+    .DiaChi-Footer {
+        font-size: 1.4em;
+    }
 }
 
-    .Form-Top{
-        padding-top:0;
-    }
-
-    .MenuBar-Bottom{
-        padding:0;
-    }
-
-    .btn-success{
-        height:2em;
-    }
-
-    .TTLienHe{
-        padding-left:0;
-        padding-right:0;
-    }
-
-    .Phone-Footer{
-        font-size:1.4em;
-    }
-
-    .DiaChi-Footer{
-        font-size:1.4em;
-    }
-}
-
+/*Desktop*/
 @media (min-width: 992px) {
     .TieuDe-Top {
-    text-align: center;
-    padding-top: 1.5em;
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #ffffff;
-}
+        text-align: center;
+        padding-top: 1.5em;
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #ffffff;
+    }
 
     .NoiDung-Top {
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #ffffff;
-}
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: bold;
+        color: #ffffff;
+    }
 
     .Tit-Top {
-    text-align: center;
-    font-size: 2.2em;
-    font-weight: bold;
-    color: #fff;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 1em;
+    }
+
+    .Footer-main {
+        padding-top: 1.5em;
+    }
+
+    .btn-Xem {
+        font-size: 1.5em;
+        height: 2em;
+        padding: 0.2em;
+    }
+
+    .Button-LienHe {
+        height: 3.6em;
+    }
+
+    .dropdown:hover .Menu2 {
+        display: block;
+    }
+
+    .Menu2 {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        list-style: none;
+        color: #137CFE;
+        width: 11em;
+        background-color: #fff;
+        padding-left: 0.5em;
+    }
+
+        .Menu2 a:hover {
+            color: red;
+            text-decoration: dotted underline;
+        }
 }
+
+/*table xoay ngang*/
+@media (max-width: 1024px) and (min-width:992px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 0.8em;
+    }
+
+    .TieuDe-Top {
+        font-size: 1.3em;
+    }
+
+    .NoiDung-Top {
+        font-size: 1em;
+    }
+
+    .Tit-Top {
+        font-size: 1.8em;
+        padding-top: 1em;
+    }
+
+    .Button-LienHe {
+        height: 3.6em;
+    }
+
+    .dropdown:focus .Menu2 {
+        display: block;
+    }
+
+    .Menu2 {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        list-style: none;
+        color: #137CFE;
+        width: 11em;
+        background-color: #fff;
+        padding-left: 0.5em;
+    }
+
+        .Menu2 a:hover {
+            color: red;
+            text-decoration: dotted underline;
+        }
 }
