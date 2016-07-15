@@ -1,39 +1,10 @@
 ﻿
-/*Post*/
-/*child-post {
-    margin: 20px 0;
-    height: 180px;
-}
-
-.child-post .title-child-post {
-    float: left;
-    width: 25%;
-}
-
-.child-post .text {
-    float: left;
-    width: 70%;
-    margin-left: 15px;
-}
-
-    .child-post .text a {
-        font-size: 1.4em;
-        color: #3a3a3a;
-    }
-
-        .child-post .text a:hover {
-            color: #0a47ba;
-        }
-
-.child-post .description {
-    line-height: 22px;
-}*/
 
 /*Relate post*/
 .relate-post-feature {
     background: #f1f1f1;
-    margin: 0 0 2.5em 0;
-    padding-bottom: 10px;
+    margin: 0.5em 0 1em 0;
+    padding-bottom: 0.8em;
 }
 
     .relate-post-feature img {
@@ -59,7 +30,7 @@
 
 /*Post*/
 child-post {
-    margin: 20px 0;
+    margin: 1.1em 0;
     height: 180px;
 }
 
@@ -71,7 +42,7 @@ child-post {
 .child-post .text {
     float: left;
     width: 70%;
-    margin-left: 15px;
+    margin-left: 1em;
 }
 
     .child-post .text a {
@@ -84,7 +55,7 @@ child-post {
         }
 
 .child-post .description {
-    line-height: 22px;
+    line-height: 1.15em;
 }
 
 body {
@@ -100,39 +71,40 @@ body {
 /*header*/
 .header {
     background-color: #ffffff;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
     color: #ffffff;
     font-family: Arial;
-    margin-bottom: 10px;
-    padding: 0;
+    padding-left:0;
+    padding-right:0;
 }
 
 .Tit-Header {
     text-align: right;
-    padding-top: 13px;
     font-size: 1em;
     font-weight: bold;
+    padding-top:0.7em;
     margin: 0;
 }
 
 .Phone-Header {
     text-align: center;
-    font-size: 25px;
-    padding-top: 8px;
+    font-size: 1.3em;
+    padding-top:0.2em;
 }
 
 .Logo {
-    margin-top: -30px;
-    margin-left: 75px;
+    margin-top: -2em;
+    margin-left: 5em;
     width: 250px;
 }
 
 .MenuBar {
-    margin-top: 40px;
-    font-size: 20px;
-    margin-left: 100px;
+    padding-top: 1.2em;
+    font-size: 1.2em;
     background-color: transparent;
+    position:static;
+    float:right;
 }
 
 .List-MenuBar1 {
@@ -171,13 +143,13 @@ body {
 }
 
 .Phone-Footer {
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bold;
     text-align: center;
 }
 
 .DiaChi-Footer {
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bold;
     text-align: center;
 }
@@ -186,14 +158,14 @@ body {
     background-image: url(../img/Footer.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 10em;
 }
 
 .LienHe {
     border-top-style: solid;
-    padding-top: 210px;
-    border-top-width: 0px;
-    padding-left: 870px;
+    padding-top: 14em;
+    border-top: 0px;
+    padding-left: 52em;
 }
 
 .Button-LienHe {
@@ -204,26 +176,24 @@ body {
 }
 
 .MenuBar-Bottom {
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
     list-style: none;
-    margin-left: -40px;
     color: rgb(19, 124, 254);
 }
 
 .TieuDe-Top {
     text-align: center;
-    padding-top: 35px;
-    font-size: 25px;
+    padding-top: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     color: #ffffff;
 }
 
 .NoiDung-Top {
-    /*padding-top:35px;*/
     text-align: center;
-    font-size: 23px;
+    font-size: 1.55em;
     font-weight: bold;
     color: #ffffff;
 }
@@ -253,10 +223,8 @@ body {
 
 .Body-Top {
     background-color: #e2ecf5;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding:1.3em 6em 1.3em 6em;
+    z-index:1;
 }
 
 .img-BodyTop {
@@ -264,14 +232,11 @@ body {
 }
 
 .Body-Bot {
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin:1.2em 2em 1.2em 3em;
 }
 /*Nọi dung dịch vụ*/
 .NDDichVu {
-    text-indent: 30px;
+    text-indent: 1.8em;
     font-weight: bold;
 }
 
@@ -282,14 +247,11 @@ body {
 }
 
 .Menu-Trai {
-    margin-left: -22px;
-    margin-right: -2px;
+    padding-left:2.5em;
 }
 
 .DichVu-Main {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 6px;
+    padding:0.2em 2.2em 0 2.2em;
 }
 
 .TieuDe {
@@ -305,11 +267,11 @@ body {
 }
 
 .LogoNho {
-    margin-top: 30px;
+    margin-top: 1.5em;
 }
 
 .LogoTo-Text {
-    margin-top: 30px;
+    margin-top: 1.5em;
 }
 
 .Banner {
@@ -328,26 +290,26 @@ body {
     float: left;
     background-color: rgba(19, 124, 254, 0.6);
     border-color: #4cae4c;
-    font-size: 25px;
+    font-size: 1.8em;
     font-weight: bold;
-    height: 52px;
+    height: 2em;
     width: 100%;
     z-index: 2;
     position: absolute;
-    padding-top: 7px;
+    padding-top: 0.4em;
     margin: 0;
 }
 
 .btn-Xem {
     width: 100%;
-    height: 52px;
+    height: 2em;
     float: right;
     position: absolute;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.8em;
     font-weight: bold;
     display: inline-block;
-    padding: 2px 4px;
+    padding-top:0.4em;
     border: 1px solid transparent;
     z-index: 2;
     background-color: rgba(57, 132, 57,0.6);
@@ -358,18 +320,19 @@ body {
     }
 
 .ChuThich-NoiDung {
-    margin-top: -52px;
-    /*margin-left: -2.5%;
-        margin-right: 2.5%;*/
+    margin-top: -3.6em;
     z-index: 2;
     width: 100%;
+}
+
+.Body-Mid{
+    padding:0;
 }
 
 .DichVu-All {
     -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
     -moz-transition-duration: 0.5s; /*Mozilla duration version*/
     -o-transition-duration: 0.5s; /*Opera duration version*/
-    /*margin: 0 10px 5px 0; /*margin between images*/
     z-index: 0;
 }
 
@@ -381,15 +344,15 @@ body {
     }
 
 .TinTuc {
-    height: 120px;
+    height: 8em;
 }
 
 .Tooltip {
     position: absolute;
     top: 0;
     right: 0;
+    left:0;
     background: rgba(66, 139, 202, 0.7);
-    width: 90%;
     height: 100%;
     margin-left: 1em;
     margin-right: 1em;
@@ -404,12 +367,6 @@ body {
         font-size: 2.1em;
     }
 
-
-/*Câu hỏi thường gặp*/
-.FAQ {
-    margin-left: 50px;
-    margin-bottom: 0px;
-}
 /*Liên hệ*/
 .Phone {
     text-align: center;
@@ -420,8 +377,243 @@ body {
     font-weight: bold;
 }
 
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+
+.MenuBar-Bottom a {
+    color: rgb(19, 124, 254);
+    text-decoration: none;
+}
+
+    .MenuBar-Bottom a:hover {
+        text-decoration: solid underline;
+    }
+
+
+.nav-stacked > li + li {
+    margin-top: 0px;
+    margin-left: 0;
+    border-bottom: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+
+.active2 {
+    border-right: 4px solid #428bca;
+}
+
 @media (min-width:1400px){
     .DichVu-All img{
         width:100%;
     }
+}
+
+@media (min-width: 767px) {
+    .container-fluid{
+        padding:0;
+    }
+
+    .container-fluid>.navbar-collapse{
+        padding:0;
+    }
+
+    .container-fluid>.navbar-collapse.navbar-nav {
+    padding-top: 0.5em;
+    background-color: transparent;
+    position:static;
+    float:right;
+}
+
+    .navbar-default .navbar-nav > li > a{
+        padding:0.5em;
+        font-size:0.9em;
+    }
+
+    .Tit-Header {
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-top: 0.7em;
+    margin: 0;
+}
+
+    .TieuDe-Top {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+    .NoiDung-Top {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+    .Tit-Top {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: rgb(19, 124, 254);
+}
+}
+
+@media (max-width: 767px) {
+    .Tit-Header {
+    text-align: right;
+    font-size: 0.5em;
+    font-weight: bold;
+    padding-top: 0.3em;
+    margin: 0;
+}
+
+    .Phone-Header {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+    .Logo {
+        margin: 0 0 0 0;
+        width: 5em;
+    }
+
+    .Menu {
+        position: absolute;
+    }
+
+    .MenuBar {
+        padding-top: 0em;
+        font-size: 1.2em;
+        background-color: transparent;
+        position: static;
+        float: right;
+        z-index: 2;
+        position: relative;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .Body-Top {
+        padding: 1em 0em 1em 0em;
+        z-index: 1;
+    }
+
+    .navbar-default .navbar-nav > li{
+        background-color:#fff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+    color: #137CFE;
+    font-size:1em;
+}
+
+    .ChuDe {
+    color: #137CFE;
+    font-size: 1.8em;
+    margin-top:0;
+}
+
+    .TieuDe-NoiDung {
+        font-size:0.8em;
+    }
+
+    .btn-Xem{
+        font-size:0.5em;
+        height:3.2em;
+    }
+
+    .ChuThich-NoiDung{
+        margin-top:-1.6em;
+    }
+    .DichVu-All{
+        margin-bottom:2em;
+    }
+
+    .Main{
+        padding:0;
+    }
+
+    .Body-Bot {
+    margin: 0.8em 0em 0.8em 0em;
+}
+
+    .TieuDe {
+    color: #099e1e;
+    font-weight: bold;
+    text-align: justify;
+    font-size:1.3em;
+}
+
+    .NoiDung {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: justify;
+}
+
+    .TieuDe-Top {
+    padding-top: 0.2em;
+    font-size: 0.5em;
+}
+
+    .NoiDung-Top {
+    font-size: 0.3em;
+}
+
+    .Tit-Top {
+    padding-top: 0.2em;
+    font-size: 0.8em;
+    color: #137CFE;
+}
+
+    .Form-Top{
+        padding-top:0;
+    }
+
+    .MenuBar-Bottom{
+        padding:0;
+    }
+
+    .btn-success{
+        height:2em;
+    }
+
+    .TTLienHe{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .Phone-Footer{
+        font-size:1.4em;
+    }
+
+    .DiaChi-Footer{
+        font-size:1.4em;
+    }
+}
+
+@media (min-width: 992px) {
+    .TieuDe-Top {
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+    .NoiDung-Top {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+    .Tit-Top {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #fff;
+}
 }

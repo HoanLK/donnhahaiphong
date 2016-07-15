@@ -11,7 +11,7 @@
         </li>
     </ul>
 
-    <div class="relate-post-feature" ng-repeat="(index, value) in posts" ng-show="index < 3" style="background-color: #fff; margin-top: 10px;">
+    <div class="relate-post-feature" ng-repeat="(index, value) in posts" ng-show="index < 3">
         <a title="{{value.title}}" href="/bai-viet/{{value.alias}}-{{value.idPost}}"><img src="{{value.image}}" alt="{{value.title}}" title="{{value.title}}" class="img-responsive" /></a>
         <p class="title-child"><a href="/bai-viet/{{value.alias}}-{{value.idPost}}" title="{{value.title}}">{{value.title}}</a></p>
         <div class="description-child">{{value.description | limitTo: 100}}{{value.description.length > 100 ? '&hellip;' : ''}}</div>
