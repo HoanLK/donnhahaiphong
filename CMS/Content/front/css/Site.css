@@ -117,7 +117,7 @@ body {
 
     .navbar-default .navbar-nav > li > a:hover {
         color: red;
-        text-decoration: dotted underline;
+        text-decoration: solid underline;
     }
 
 .panel-body {
@@ -435,24 +435,18 @@ body {
         font-size: 0.9em;
     }
 
-    .dropdown:focus .Menu2 {
-        display: block;
-    }
-
-    .Menu2 {
-        display: none;
-        position: absolute;
+    .dropdown-menu > li > a {
         z-index: 5;
-        list-style: none;
         color: #137CFE;
-        width: 11em;
+        font-size: 1.4em;
         background-color: #fff;
         padding-left: 0.5em;
     }
 
-        .Menu2 a:hover {
+        .dropdown-menu > li > a:hover {
             color: red;
-            text-decoration: dotted underline;
+            text-decoration: solid underline;
+            background-color: #fff;
         }
 
     .Tit-Header {
@@ -553,26 +547,6 @@ body {
         margin: 0 -15px 0 -15px;
     }
 
-    .dropdown:focus .Menu2 {
-        display: block;
-    }
-
-    .Menu2 {
-        display: none;
-        position: absolute;
-        z-index: 5;
-        list-style: none;
-        color: #137CFE;
-        width: 11em;
-        background-color: #fff;
-        padding-left: 0.5em;
-    }
-
-        .Menu2 a:hover {
-            color: red;
-            text-decoration: dotted underline;
-        }
-
     .Body-Top > .panel-body {
         padding: 0;
     }
@@ -583,7 +557,6 @@ body {
     }
 
     .navbar-default .navbar-nav > li {
-        background-color: #fff;
         background-color: #333;
         border-bottom: 1px solid rgba(120, 120, 120, 0.2);
     }
@@ -593,6 +566,33 @@ body {
             padding: 1em 2em;
             font-size: 0.6em;
         }
+
+    .dropdown-menu > li > a {
+        z-index: 5;
+        color: #ddd;
+        font-size: 1.2em;
+        background-color: #333;
+        margin-left:2em;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ddd;
+    }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+            color: red;
+            text-decoration: solid underline;
+        }
+
+    .dropdown-menu > li > a:hover {
+        color: red;
+        text-decoration: solid underline;
+        background-color: #fff;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        background-color: #333;
+    }
 
     .ChuDe {
         color: #137CFE;
@@ -718,24 +718,18 @@ body {
         height: 3.6em;
     }
 
-    .dropdown:hover .Menu2 {
-        display: block;
-    }
-
-    .Menu2 {
-        display: none;
-        position: absolute;
+    .dropdown-menu > li > a {
         z-index: 5;
-        list-style: none;
         color: #137CFE;
-        width: 11em;
+        font-size: 1.4em;
         background-color: #fff;
         padding-left: 0.5em;
     }
 
-        .Menu2 a:hover {
+        .dropdown-menu > li > a:hover {
             color: red;
-            text-decoration: dotted underline;
+            text-decoration: solid underline;
+            background-color: #fff;
         }
 }
 
@@ -762,23 +756,17 @@ body {
         height: 3.6em;
     }
 
-    .dropdown:focus .Menu2 {
-        display: block;
-    }
-
-    .Menu2 {
-        display: none;
-        position: absolute;
+    .dropdown-menu > li > a {
         z-index: 5;
-        list-style: none;
         color: #137CFE;
-        width: 11em;
+        font-size: 1.4em;
         background-color: #fff;
         padding-left: 0.5em;
     }
 
-        .Menu2 a:hover {
+        .dropdown-menu > li > a:hover {
             color: red;
-            text-decoration: dotted underline;
+            text-decoration: solid underline;
+            background-color: #fff;
         }
 }

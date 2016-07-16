@@ -73,12 +73,15 @@
                             <ul class="nav navbar-nav">
                                 <li class="List-MenuBar1">@Html.ActionLink("Trang chủ", "Index", "Home")</li>
                                 <li class="List-MenuBar1"><a href="/gioi-thieu">Giới thiệu</a></li>
-                                <li class="List-MenuBar1 dropdown">
-                                    <a href="/dich-vu" class="Menu_dichVu">Dịch vụ</a>
-                                    <ul class="Menu2">
-                                        <li><a href="#">Dọn nhà theo tiếng</a></li>
-                                        <li><a href="#">Vệ sinh văn phòng</a></li>
-                                        <li><a href="#">Vệ sinh công nghiệp</a></li>
+                                <li class="dropdown List-MenuBar1">
+                                    <a class="dropdown-toggle Menu_dichVu" data-toggle="dropdown" href="#">
+                                        Dịch vụ
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu Menu2">
+                                        <li><a href="/dich-vu/don-nha-theo-tieng">Dọn nhà theo tiếng</a></li>
+                                        <li><a href="/dich-vu/ve-sinh-van-phong">Vệ sinh văn phòng</a></li>
+                                        <li><a href="/dich-vu/ve-sinh-cong-nghiep">Vệ sinh công nghiệp</a></li>
                                     </ul>
                                 </li>
                                 <li class="List-MenuBar1"><a href="/bai-viet">Tin tức</a></li>
