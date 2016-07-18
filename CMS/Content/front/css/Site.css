@@ -117,7 +117,7 @@ body {
 
     .navbar-default .navbar-nav > li > a:hover {
         color: red;
-        text-decoration: solid underline;
+        text-decoration: underline;
     }
 
 .panel-body {
@@ -391,7 +391,7 @@ body {
 }
 
     .MenuBar-Bottom a:hover {
-        text-decoration: solid underline;
+        text-decoration: underline;
     }
 
 
