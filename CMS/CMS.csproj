@@ -189,6 +189,7 @@
     <Folder Include="Content\admin\js\core\cache\" />
     <Folder Include="Content\Images\files\" />
     <Folder Include="Content\Images\images\Dich vu\Ve sinh van phong\" />
+    <Folder Include="Views\SendEmail\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -212,6 +213,7 @@
     <Compile Include="Controllers\DichVuController.cs" />
     <Compile Include="Controllers\GioiThieuController.cs" />
     <Compile Include="Controllers\LienHeController.cs" />
+    <Compile Include="Controllers\SendEmailController.cs" />
     <Compile Include="Controllers\TimKiemController.cs" />
     <Compile Include="Controllers\UsersAPIController.cs" />
     <Compile Include="Controllers\VideosAPIController.cs" />
@@ -275,6 +277,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FullHouse.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\MailModel.cs" />
     <Compile Include="Models\Post.cs">
       <DependentUpon>FullHouse.tt</DependentUpon>
     </Compile>
