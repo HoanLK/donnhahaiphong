@@ -13,6 +13,8 @@
                 }
             });
         })
+
+
     $http.get('/API/ProductsAPI/')
         .success(function (data) {
             angular.forEach(data, function (value, key) {

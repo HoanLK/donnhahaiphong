@@ -2202,6 +2202,10 @@
     </Content>
     <Content Include="Content\front\css\font-awesome.css" />
     <Content Include="Content\front\css\font-awesome.min.css" />
+    <Content Include="Content\front\css\QuangCao.css" />
+    <Content Include="Content\front\css\QuangCao.min.css">
+      <DependentUpon>QuangCao.css</DependentUpon>
+    </Content>
     <Content Include="Content\front\css\Site.css" />
     <Content Include="Content\front\css\site.min.css">
       <DependentUpon>Site.css</DependentUpon>
@@ -2307,6 +2311,7 @@
     <Content Include="Content\Images\images\Dich vu\ve-sinh-van-phong-1.jpg" />
     <Content Include="Content\Images\images\Dich vu\ve-sinh-van-phong-2.jpg" />
     <Content Include="Content\Images\images\Dich vu\ve-sinh-van-phong-3.jpg" />
+    <Content Include="Content\Images\images\QC.jpg" />
     <Content Include="Content\Images\_thumbs\Images\10556372_324607641073956_4378838818034648633_n_20150208084435244.jpg" />
     <Content Include="Content\Images\_thumbs\Images\Anonymous avatar.png" />
     <Content Include="Content\Images\_thumbs\Images\Anonymous.png" />
@@ -2501,6 +2506,7 @@
     <Content Include="Scripts\front\videoController.min.js">
       <DependentUpon>videoController.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\jquery.popup.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />

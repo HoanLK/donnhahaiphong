@@ -5,6 +5,16 @@
 
 @Html.Partial("_Banner")
 <br />
+
+@*Quảng cáo*@
+<div id="myModal" class="pgdien-modal">
+    <a href="~/bai-viet/khuyen-mai-soc-650kthang-16">
+        <img src="~/Content/Images/images/QC.jpg" />
+    </a>
+
+    <a class="close-pgdien-modal">X</a>
+</div>
+
 <div class="Body-Top container col-md-12 col-sm-12 col-xs-12">
     <div class="col-md-12 col-sm-12 col-xs-12 panel-body">
         <div class="col-lg-3 col-md-3 col-xs-12 col-sm-6 Top-Tooltip">
@@ -16,7 +26,7 @@
         </div>
         <div class="col-lg-3 col-md-3 col-xs-12 col-sm-6 Top-Tooltip">
             <a href="/lien-he">
-                <img src="~/Content/front/img/TimChungToi.png" class="img-responsive img-BodyTop" alt="Chúng tôi ở đây" style="width:100%"  />
+                <img src="~/Content/front/img/TimChungToi.png" class="img-responsive img-BodyTop" alt="Chúng tôi ở đây" style="width:100%" />
             </a>
             <div class="Tooltip caption hidden-xs">
                 <p>Bạn muốn tìm chúng tôi!</p>
@@ -106,7 +116,7 @@
 <div class="col-md-12 col-sm-12 col-xs-12 Main" style="background-color:#ffffff">
     <div class="panel-body">
         <div class="" style="text-align:center; border-bottom:3px solid #0A921A; background-color:#ffffff">
-            <h3  class="ChuDe">Lý do chọn chúng tôi</h3>
+            <h3 class="ChuDe">Lý do chọn chúng tôi</h3>
         </div>
         <div class="Body-Bot">
             <div class="col-md-6">
@@ -157,7 +167,7 @@
                     <p class="NoiDung">
                         Đặc biệt, sẽ có những ưu đãi dành cho bạn nếu như bạn tin tưởng và sử dụng dịch
                         vụ của chúng tôi trong một thời gian dài. Tìm hiểu thêm những ưu đãi dành cho bạn
-                        <a href="#" style="color:#ff0000">tại đây</a>.
+                        <a href="~/bai-viet/khuyen-mai-soc-650kthang-16" style="color:#ff0000">tại đây</a>.
                     </p>
                 </div>
             </div>
@@ -165,6 +175,7 @@
     </div>
 </div>
 
+<script src="~/Scripts/jquery.popup.js"></script>
 @*Tạo hiệu ứng đổ xuống*@
 <script type="text/javascript">
     $(document).ready(function () {
@@ -189,5 +200,10 @@
             $(this).find('.caption').slideUp(200); //lên
         }
         );
+    });
+
+    //Quảng cáo
+    $(window).load(function () {
+        $('#myModal').pgdien($('#myModal').data());
     });
 </script>

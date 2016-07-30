@@ -208,5 +208,11 @@
     "inputFiles": [
       "Content/front/css/bootstrap.css"
     ]
+  },
+  {
+    "outputFileName": "Content/front/css/QuangCao.min.css",
+    "inputFiles": [
+      "Content/front/css/QuangCao.css"
+    ]
   }
 ]
