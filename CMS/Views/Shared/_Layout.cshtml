@@ -1,4 +1,4 @@
-﻿@model CMS.Models.MailModel
+﻿@*@model CMS.Models.MailModel*@
 <!DOCTYPE html>
 <html>
 <head>
@@ -122,14 +122,17 @@
                         {
                             @Html.ValidationSummary()
 
-                        <div class="col-md-7">
-                            <p>@Html.TextBoxFor(m => m.HoTen, new { @class = "form-control", @placeholder = "Họ tên khách hàng" })</p>
-                            <p>@Html.TextBoxFor(m => m.SDT, new { @class = "form-control", @placeholder = "Số điện thoại" })</p>
-                            <p>@Html.TextBoxFor(m => m.Email, new { @class= "form-control", @placeholder = "Email" })</p>                            
-                        </div>
-                        <div class="col-md-5">
-                            <input type="submit" class="btn btn-success Button-LienHe" value="Gửi" />
-                        </div>
+                            <div class="col-md-7">
+                                @*<p>@Html.TextBox("HoTen", new { @class = "form-control", @placeholder = "Họ tên khách hàng" })</p>*@
+                                <p><input type="text" name="HoTen" class="form-control" placeholder="Họ tên khách hàng" /></p>
+                                @*<p>@Html.TextBox("SDT", new { @class = "form-control", @placeholder = "Số điện thoại" })</p>*@
+                                <p><input type="text" name="SDT" class="form-control" placeholder="Số điện thoại" /></p>
+                                @*<p>@Html.TextBox("Email", new { @class = "form-control", @placeholder = "Email" })</p>*@
+                                <p><input type="text" name="Email" class="form-control" placeholder="Email" /></p>
+                            </div>
+                            <div class="col-md-5">
+                                <input type="submit" class="btn btn-success Button-LienHe" value="Gửi" />
+                            </div>
                         }
                     </div>
                 </div>

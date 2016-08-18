@@ -15,17 +15,17 @@ namespace CMS.Controllers
         //    return View();
         //}
 
-        public ActionResult Index(CMS.Models.MailModel _objModelMail)
+        public ActionResult Index(FormCollection formcollection)
         {
             if (ModelState.IsValid)
             {
                 MailMessage mail = new MailMessage();
                 mail.To.Add("donnhahaiphong86@gmail.com");
-                mail.From = new MailAddress("hoanlk93@gmail.com");
+                mail.From = new MailAddress("ketnoitre.jsc@gmail.com");
                 mail.Subject = "Thông tin khách hàng đăng ký";
-                string Body = "<b>Họ tên khách hàng:</b> " + _objModelMail.HoTen + "<br>" 
-                                + "<b>Số điện thoại:</b> " + _objModelMail.SDT + "<br>"
-                                + "<b>Email:</b> " + _objModelMail.Email;
+                string Body = "<b>Họ tên khách hàng:</b> " + formcollection["HoTen"] + "<br>" 
+                                + "<b>Số điện thoại:</b> " + formcollection["SDT"] + "<br>"
+                                + "<b>Email:</b> " + formcollection["Email"];
                 mail.Body = Body;
                 mail.IsBodyHtml = true;
                 SmtpClient smtp = new SmtpClient();
@@ -33,7 +33,7 @@ namespace CMS.Controllers
                 smtp.Port = 587;
                 smtp.UseDefaultCredentials = false;
                 smtp.Credentials = new System.Net.NetworkCredential
-                ("donnhahaiphong86@gmail.com", "nguyenminhngoc");// Enter seders User name and password
+                ("ketnoitre.jsc@gmail.com", "Huydaika123@");// Enter seders User name and password
                 smtp.EnableSsl = true;
                 smtp.Send(mail);
                 return RedirectToAction("Index", "Home");
