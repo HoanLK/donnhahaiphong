@@ -1,4 +1,4 @@
-﻿@*@model CMS.Models.MailModel*@
+﻿﻿@*@model CMS.Models.MailModel*@
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +14,7 @@
     <meta name="robots" content='@((ViewBag.Robots!=null)?ViewBag.Robots:"index, noop, follow")' />
     <meta http-equiv="content-language" content="vi" />
     <link href="~/Content/Images/images/CTA-KhongXoa/Logo.png" rel="shortcut icon" type="image/x-icon" />
-    <link rel="alternate" href="http://www.donnhataihaiphong.com/" hreflang="vn-vi" />
+    <link rel="alternate" href="http://www.donnhataihaiphong.com/" hreflang="vi" />
 
     <meta itemprop="name" content='@((ViewBag.Title!=null)?ViewBag.Title : "")'>
     <meta itemprop="description" content='@((ViewBag.Description!=null)?ViewBag.Description:"")'>
@@ -123,18 +123,12 @@
                             @Html.ValidationSummary()
 
                             <div class="col-md-7">
-<<<<<<< HEAD
-                                <p>@Html.TextBoxFor(m => m.HoTen, new { @class = "form-control", @placeholder = "Họ tên khách hàng" })</p>
-                                <p>@Html.TextBoxFor(m => m.SDT, new { @class = "form-control", @placeholder = "Số điện thoại" })</p>
-                                <p>@Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email" })</p>
-=======
                                 @*<p>@Html.TextBox("HoTen", new { @class = "form-control", @placeholder = "Họ tên khách hàng" })</p>*@
                                 <p><input type="text" name="HoTen" class="form-control" placeholder="Họ tên khách hàng" /></p>
                                 @*<p>@Html.TextBox("SDT", new { @class = "form-control", @placeholder = "Số điện thoại" })</p>*@
                                 <p><input type="text" name="SDT" class="form-control" placeholder="Số điện thoại" /></p>
                                 @*<p>@Html.TextBox("Email", new { @class = "form-control", @placeholder = "Email" })</p>*@
                                 <p><input type="text" name="Email" class="form-control" placeholder="Email" /></p>
->>>>>>> origin/master
                             </div>
                             <div class="col-md-5">
                                 <input type="submit" class="btn btn-success Button-LienHe" value="Gửi" />
