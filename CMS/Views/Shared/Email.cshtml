@@ -1,0 +1,15 @@
+﻿@model CMS.Models.MailModel
+
+@using (Html.BeginForm("Index", "SendEmail", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary()
+
+    <div class="col-md-7">
+        <p>@Html.TextBoxFor(m => m.HoTen, new { @class = "form-control", @placeholder = "Họ tên khách hàng" })</p>
+        <p>@Html.TextBoxFor(m => m.SDT, new { @class = "form-control", @placeholder = "Số điện thoại" })</p>
+        <p>@Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email" })</p>
+    </div>
+                        <div class="col-md-5">
+                            <input type="submit" class="btn btn-success Button-LienHe" value="Gửi" />
+                        </div>
+}

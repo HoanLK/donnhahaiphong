@@ -16,10 +16,10 @@
 	.pgdien-modal {
 		visibility: hidden;
 		text-align:center;
-		top: 5%;
-        left:20%;
-        right:20%;
-        bottom:2em;
+		top: 0em;
+        left:20em;
+        right:20em;
+        bottom:0em;
 		/*margin-left: -300px;
 		width: 520px;*/
 		/*background: #eee url(modal-gloss.png) no-repeat -200px -80px;*/
@@ -60,3 +60,41 @@
 		cursor: pointer;
 		}
 	.big-link { display:block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+    /*Mobile*/
+@media (max-width: 767px) {
+    .pgdien-modal {
+		top: 2em;
+        left:0em;
+        right:0em;
+        bottom:2em;
+		}
+}
+
+/*table*/
+@media (min-width: 767px) and (max-width:992px){
+    .pgdien-modal {
+		top: 0em;
+        left:2em;
+        right:2em;
+        bottom:0em;
+		}
+}
+
+/*table xoay ngang*/
+@media (max-width: 1024px) and (min-width:992px){
+    .pgdien-modal {
+		top: 0em;
+        left:5em;
+        right:5em;
+        bottom:0em;
+		}
+}
+
+@media (min-width:2000px){
+    .pgdien-modal {
+		top: 0em;
+        left:40em;
+        right:40em;
+        bottom:0em;
+		}
+}
