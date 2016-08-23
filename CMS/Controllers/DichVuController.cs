@@ -54,5 +54,16 @@ namespace CMS.Controllers
 
             return View("~/Views/BaiViet/Index.cshtml", model);
         }
+
+        //Dịch vụ chuyển nhà trọn gói
+        [Route("dich-vu-chuyen-nha-tron-goi")]
+        public ActionResult ChuyenNhaChonGoi()
+        {
+            ViewBag.Title = "Chuyển nhà trọn gói";
+
+            var model = db.Post.Where(p => p.idPost == 1016).FirstOrDefault();
+
+            return View("~/Views/BaiViet/Index.cshtml", model);
+        }
     }
 }

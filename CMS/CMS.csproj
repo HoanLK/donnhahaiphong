@@ -2225,6 +2225,7 @@
     <Content Include="Content\front\img\DiaCauLogo.png" />
     <Content Include="Content\front\img\dich-vu-ve-sinh-van-phong-1.jpg" />
     <Content Include="Content\front\img\dich-vu-ve-sinh-van-phong-2.jpg" />
+    <Content Include="Content\front\img\DichVuChuyuenNha.png" />
     <Content Include="Content\front\img\DichVuDonNhaTheoTieng.png" />
     <Content Include="Content\front\img\DichVuFAQ.png" />
     <Content Include="Content\front\img\DichVuVSCN.png" />
