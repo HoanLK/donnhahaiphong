@@ -46,13 +46,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="~/Scripts/BangBaoGia.js"></script>
 
+    <!--Popup tết-->
+    <link href="~/Content/Front/Popup/popup.min.css" rel="stylesheet" />
 </head>
 <body ng-app="frontApp" style="background-color:#e2ecf5;">
+    @Html.Partial("_PopTet")
 
     <header class="col-md-12 col-lg-12 header">
         <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:#1eac10">
             <h1 class="col-md-8 col-xs-12 col-sm-8 Tit-Header">FULL HOUSE DỊCH VỤ DỌN NHÀ CHUYÊN NGHIỆP</h1>
-            <p class="col-md-4  col-xs-12 col-sm-4 Phone-Header"><span class="fa fa-phone"> 096 541 9188 - 01697 888 666</span></p>
+            <p class="col-md-4  col-xs-12 col-sm-4 Phone-Header"><span class="fa fa-phone"> 031 656 3333</span></p>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12 MidHeader">
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
@@ -171,14 +174,14 @@
                             <p class="Phone-Footer" style="color:rgb(19, 124, 254); border-bottom:thick solid rgb(10, 146, 26)">Thông tin liên hệ</p>
                             <p class="Phone-Footer">
                                 <span style="color:red">Phone: </span>
-                                <span style="color:blue">0313 78 1809 </span>
-                                <br />
+                                <span style="color:blue">031 656 3333</span>
+                                @*<br />
                                 <span style="color:red">Hotline: </span>
-                                <span style="color:blue">096 541 9188 - 01697 888 666</span>
+                                <span style="color:blue">096 541 9188 - 01697 888 666</span>*@
                             </p>
                             <p class="DiaChi-Footer" style="text-align:center">
                                 <span style="color:red">Địa chỉ: </span>
-                                <span style="color:blue">50 Thiên Lôi, Hải Phòng</span>
+                                <span style="color:blue">39 Nguyễn Thị Thuận, Hải An, Hải Phòng</span>
                             </p>
                         </div>
                     </div>
@@ -202,6 +205,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="~/Scripts/angular-sanitize.min.js"></script>
     <script src="~/Scripts/angular-cookies.min.js"></script>
+
+    <!--Popup tết-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="~/Content/Front/Popup/jquery.popup.min.js"></script>
+    <script type="text/javascript">
+			$(window).load(function() {
+			  $('#myModal').popup($('#myModal').data());
+			});
+    </script>	
 
     <!--MY-->
     <script src="~/Scripts/front/frontApp.min.js"></script>

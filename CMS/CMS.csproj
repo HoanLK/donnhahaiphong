@@ -2270,6 +2270,11 @@
     <Content Include="Content\front\js\respond.matchmedia.addListener.min.js" />
     <Content Include="Content\front\js\respond.min.js" />
     <None Include="Content\front\js\_references.js" />
+    <Content Include="Content\front\Popup\jquery.popup.js" />
+    <Content Include="Content\front\Popup\jquery.popup.min.js" />
+    <Content Include="Content\front\Popup\pop.jpg" />
+    <Content Include="Content\front\Popup\popup.css" />
+    <Content Include="Content\front\Popup\popup.min.css" />
     <Content Include="Content\Images\file\GioiThieu1.jpg" />
     <Content Include="Content\Images\file\GioiThieu2.jpg" />
     <Content Include="Content\Images\file\GioiThieu3.jpg" />
@@ -2539,6 +2544,7 @@
     <Content Include="Views\LienHe\Index.cshtml" />
     <Content Include="Views\BaiViet\ShowAllBaiViet.cshtml" />
     <Content Include="Views\BaoGia\Index.cshtml" />
+    <Content Include="Views\Shared\_PopTet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
